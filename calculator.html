@@ -1,0 +1,32 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main" id="clac">
+            <p id="calc_string">  </p>
+            <input type="text" name="inp_value" class="inp" maxlength="10" value="0">
+            <button class="but" onclick="calc_inp_clear()">CE</button>
+            <button class="but" onclick="clac_clear() ">C</button>
+            <button class="but" onclick="backspase()"><-</button>
+            <button class="but" onclick=" add_operator('/')">&#47;</button>
+            <button class="but" onclick="add_input('7')">7</button>
+            <button class="but" onclick="add_input('8')">8</button>
+            <button class="but"onclick="add_input('9')">9</button>
+            <button class="but"onclick=" add_operator('*')">&#42;</button>
+            <button class="but"onclick="add_input('4')">4</button>
+            <button class="but"onclick="add_input('5')">5</button>
+            <button class="but"onclick="add_input('6')">6</button>
+            <button class="but"onclick=" add_operator('-')">&#45;</button>
+            <button class="but"onclick="add_input('1')">1</button>
+            <button class="but"onclick="add_input('2')">2</button>
+            <button class="but"onclick="add_input('3')">3</button>
+            <button class="but"onclick=" add_operator('+')">&#43;</button>
+            <button class="but" onclick=" neg_pos()">+/-</button>
+            <button class="but"onclick="add_input('0')">0</button>
+            <button class="but" onclick="add_input('.')" >.</button>
+            <button class="but"onclick=" add_operator('=')">&#61;</button>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
